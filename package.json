@@ -1,0 +1,38 @@
+{
+  "name": "functional-koans",
+  "version": "1.0.0",
+  "description": "Koans for practicing functional programming basics in ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha-webpack 'src/**/*.spec.js'",
+    "flow": "flow",
+    "lint": "eslint src/shoppingCart.js"
+  },
+  "keywords": [
+    "es6",
+    "fp"
+  ],
+  "author": "Marc Rodriguez",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.13.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "flow-bin": "^0.61.0",
+    "mocha": "^4.0.1",
+    "mocha-webpack": "^1.0.1",
+    "sinon": "^4.1.2",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
