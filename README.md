@@ -35,13 +35,13 @@ TOTAL PRICE:                                       22.5
 In order to setup the project, first clone this repo:
 
 ```
-$ git clone https://github.com/MarcAtrapalo/functional-koans
+$ git clone https://github.com/MarcAtrapalo/functional-shopping-cart
 ```
 
 Then install all required modules:
 
 ```
-$ cd functional-koans
+$ cd functional-shopping-cart
 $ npm install
 ```
 
@@ -51,14 +51,12 @@ If you want to test the exercises, just executing this command will execute the 
 $ npm test
 ```
 
-## Exercises
-Each exercise's goals are described within the tests.
-Try to make the tests pass by filling in the blanks or fixing the broken code.
+Moreover, if you want to test linting, you can run:
+```
+$ npm run lint
+```
 
-Note you can run just the tests for one exercise by suffixing the `describe` block with `.only` as follows:
-
-```javascript
-describe.only('1. Hello World', () => {
-    ...
-});
+And for type checking:
+```
+$ npm run flow
 ```
